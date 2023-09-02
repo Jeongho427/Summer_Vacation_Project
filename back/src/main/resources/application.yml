@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/lobster
     username: lobster
-    password: 1234
+    password: 
   webflux:
     cors:
       enabled: true
@@ -17,8 +17,8 @@ spring:
   mail:
     host: smtp.naver.com
     port: 465
-    username: lobster_team@naver.com
-    password: givemelobster!!
+    username: 
+    password: 
     properties:
       mail.smtp.auth: true
       mail.smtp.ssl.enable: true
@@ -38,8 +38,8 @@ spring:
         format_sql: 'true'
 
 jwt:
-  secret: VlwEyVBsYt9V7zq57TejMnVUyzblYcfPQye08f7MGVA9XkHa
-  password: VlwEyVBsYt9V7zq57TejMnVUyzblYcfPQye08f7MGVA9XkHa
+  secret: 
+  password: 
 
 
 server:
